@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["steamroller-airmash <38710707+steamroller-airmash@users.noreply.github.com>"]
 
 [dependencies]
-airmash-protocol = { path="../../airmash-protocol-serde" }
+airmash-protocol = { git = "https://github.com/steamroller-airmash/airmash-protocol-rs", branch = "dev" }
 websocket = "*"
